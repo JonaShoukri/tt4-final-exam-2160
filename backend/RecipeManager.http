@@ -1,0 +1,19 @@
+@RecipeManager_HostAddress = http://localhost:5292
+
+### Get all recipes
+GET {{RecipeManager_HostAddress}}/api/Recipes/
+Accept: application/json
+
+### Create a new recipe
+POST http://localhost:5292/api/Recipes/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Spaghetti Carbonara",
+  "ingredients": "Spaghetti, Eggs, Pancetta, Parmesan cheese, Black pepper",
+  "instructions": "1. Boil water and cook spaghetti until al dente.\n2. Fry pancetta until crispy.\n3. Mix eggs and cheese in a bowl.\n4. Toss spaghetti with pancetta, then quickly mix with egg and cheese mixture.\n5. Season with black pepper and serve.",
+  "prepTime": 15
+}
+
+###
