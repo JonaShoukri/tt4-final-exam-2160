@@ -124,7 +124,7 @@ Each question is worth 0.5 points. Total: **10 points**
    - D) `@value`  
 
 16. What is the default file extension for Svelte components?  
-   - **A) `.svelte`**  
+   - ** A) `.svelte` **  
    - B) `.svt`  
    - C) `.js`  
    - D) `.component`  
